@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Power Solver</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9acac;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      width: 300px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #4CAF50;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Power Solver</h1>
+
+    <input type="number" id="squareInput" placeholder="Give any number (Square)">
+    <button onclick="solveSquare()">Solve Square</button>
+    <div class="result" id="squareResult"></div>
+
+    <input type="number" id="cubeInput" placeholder="Give any number (Cube)">
+    <button onclick="solveCube()">Solve Cube</button>
+    <div class="result" id="cubeResult"></div>
+  </div>
+
+  <script src="cbAndSqrDONE.js
+  "></script>
+</body>
+</html>
